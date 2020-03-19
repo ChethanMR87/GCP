@@ -12,7 +12,7 @@ def info():
 			
 	jsonString = {
 	  "app_name": "flask_app",
-	  "version": "1.0",
+	  "version": config.git_version(),
 	  "git_commit_sha":config.git_commit_sha(),
 	  "environment": [
 		{"service_port":config.port()},
