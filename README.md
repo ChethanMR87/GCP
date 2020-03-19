@@ -22,3 +22,17 @@ Using python 3.6.2
 Service Port
 log_level
 git_commit_sha
+
+# Run app
+CMD->mkdir Flask_app folder 
+
+C:\NotBackedUp\Flask_app>py -m venv env
+
+Activate the environment
+(env) C:\NotBackedUp\Flask_app>env\Scripts\activate
+
+Install Flask
+(env) C:\NotBackedUp\Flask_app> pip install flask
+
+set the file name to a variable
+(env) C:\NotBackedUp\Flask_app>set FLASK_APP=execute.py
